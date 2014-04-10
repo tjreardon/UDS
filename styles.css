@@ -1,0 +1,77 @@
+body {
+    background-color: #232323;
+	margin: 0;
+	padding: 0;
+}
+div #logo {
+	font-family: "Open Sans";
+	text-align: center;
+	font-weight: 400;
+	font-style: italic;
+	font-size:35px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#heading {
+	text-align:center;
+}
+
+p{
+	font-family: "Open Sans";
+	color: black;
+	font-size: 15px;
+}
+
+h1{
+	font-family: "Open Sans";
+	font-weight: 200;
+	font-size:25px;
+}
+
+h2{
+	font-family: "Open Sans";
+	font-style: italic;
+	font-size:1px;
+}
+
+.warning {
+	color: red;
+	font-style:italic;
+}
+
+div#header {
+	background-color: black;
+	width: 100%;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+div#content {
+    background-color: white;
+    color: black;
+	padding-top:1px;
+    padding-left:25px;
+	padding-right:25px;
+	padding-bottom:25px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 0px;
+}
+div#content a {
+    color: black;
+	font-style:underline;
+}
+
+div#content a:visited {
+    color: black;
+	font-style: underline;
+}
+
+div#content a:hover {
+	color: orange;
+}

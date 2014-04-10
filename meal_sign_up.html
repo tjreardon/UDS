@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,800,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<script type="text/javascript" src="sitejs.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<div id="logo">--Put Logo Here--</div>
+		</div>
+		<div id="content">
+			<div id="heading"><h1>Meal Plan Signup</h1></div>
+			<form name="myForm" action="http://symlink.dk/code/php/submit/" method="POST" onsubmit="return validate()">
+				<table style="width:fullpx">
+					<tr>
+						<td>Name</td>
+						<td><input type="text" name="name"></td>
+						<td><div class= "warning" id="nameWarning"/>
+					</tr>
+					<tr>
+						<td><label for="email">Email:</label></td>
+						<td><input type="email" name="email"></td>
+						<td><div class= "warning" id="emailWarning"/>
+					</tr>
+					<tr>
+						<td>Student-ID:</td>
+						<td><input type="text" name="id"></td>
+						<td><div class= "warning" id="idWarning"/>
+					</tr>
+					<tr>
+					<br>
+						<td valign= "top">Select Meal Plan: </td>
+						<td>
+							<input type="radio" name ="plan" value="1">Plan 1<br>
+							<input type="radio" name ="plan" value="2">Plan 2<br>
+							<input type="radio" name ="plan" value="3">Plan 3<br>
+							<input type="radio" name ="plan" value="4">Plan 4<br>
+						</td>
+						<td><div class= "warning" id="planWarning"/>
+					</tr>
+				</table>
+				<input type="submit" value ="Continue to Checkout" name="sub"> 
+			</form>
+			</div>
+	</body>
+</html>
