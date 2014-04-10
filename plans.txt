@@ -1,0 +1,14 @@
+
+Students/Fac
+------------------------
+3 meals a day 7 days a week
+2 meals a day 7 days a week
+2 meal 6 days
+1 meal 7 days
+1 meal 5 days
+2 meals 5 days
+
+General Public
+-------------------
+15 Meals
+No Dollars
